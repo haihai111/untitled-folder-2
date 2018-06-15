@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 // LICENSE file in the root directory of this source tree.
 apply plugin: 'com.github.dcendents.android-maven'
 group='edmt.dev'
-version='1.08'
+version='1.0'
 
 android {
     compileSdkVersion 27
@@ -48,6 +48,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         jcenter()
         mavenLocal()
         maven {
